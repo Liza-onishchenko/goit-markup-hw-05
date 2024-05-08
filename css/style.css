@@ -705,12 +705,14 @@ padding: 0 15px;
     border-radius: 4px;
     padding-left: 38px;
     background-color: transparent;
+    outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
     border-color: #4D5AE5;
     outline: transparent;
+    margin-bottom: 16px; 
 }
 
 .review-form-field-wrapper {
@@ -768,7 +770,8 @@ padding: 0 15px;
 .review-form-checkbox-label {
     font-size: 12px;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.7);
+    color: #8e8f99;
+    line-height: 1.17;
 }
 
 .review-form-own-checkbox {
@@ -781,6 +784,7 @@ padding: 0 15px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     cursor: pointer;
     fill: transparent ;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
  
 .review-form-checkbox:checked + .review-form-checkbox-label .review-form-own-checkbox {
@@ -796,8 +800,9 @@ padding: 0 15px;
 
 .privacy-policy-link {
     text-decoration: underline;
-    color: #404BBF;
+    color: #4d5ae5; 
 }
+
 
 .review-button-submit {
     display: block;
@@ -809,6 +814,8 @@ padding: 0 15px;
     border: none;
     margin: 0 auto;
     cursor: pointer;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em ;
     color: #ffffff;
     background-color: #4D5AE5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
